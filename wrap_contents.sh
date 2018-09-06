@@ -9,7 +9,7 @@ target=$3
 footer=${wrapper}_footer.html
 header=${wrapper}_header.html
 
-echo $footer
-echo $header
+cat $header $content $footer > ./$target
+
 
 
